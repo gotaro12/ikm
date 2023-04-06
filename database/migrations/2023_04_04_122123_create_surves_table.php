@@ -17,11 +17,11 @@ class CreateSurvesTable extends Migration
             $table->id();
             $table->string('name');
             $table->string('title');
-            $table->integer('sm');
-            $table->integer('m');
-            $table->integer('c');
-            $table->integer('s');
-            $table->integer('ss');
+            $table->integer('q1');
+            $table->integer('q2');
+            $table->integer('q3');
+            $table->integer('q4');
+            $table->integer('q5');
             $table->timestamps();
         });
     }
